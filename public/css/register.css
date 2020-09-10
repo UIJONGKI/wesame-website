@@ -1,0 +1,144 @@
+#sub-register-container{width:100%; overflow:hidden;}
+
+
+/*#################    registerTitle    ####################*/
+#registerTitleArea{width:100%; position:relative;}
+
+
+#registerTitle{overflow:hidden; width:95%; max-width:960px; margin:20px auto; background-color:#fff;}
+#registerTitle h3{float:left; display:inline-block; font-size:75px; color:#414141; text-indent:10px; letter-spacing:-0.05em;}
+#registerTitle a{overflow:hidden; float:left; display:block; width:115px; padding-right:20px;}
+#registerTitle img{float:left; width:100%; padding-top:15px;}
+
+
+/*#################    registerContentArea    ####################*/
+#registerContentArea{width:100% overflow:hidden; background:#00519e url("../img/bgline3.png");}
+#registerContent{width:95%; max-width:960px; margin:0 auto; padding:25px 0; color:#fff;}
+.registerContentTitle{font-size:23px; font-weight:100; letter-spacing:0.03em;}
+.registerContentTitle2{font-size:15px; border-bottom:1px solid #fff; width:140px; letter-spacing:0.03em; margin-top:10px; position:relative; cursor:pointer;}
+.registerContentTitle2 span{border-right:8px solid transparent; border-left:8px solid transparent; border-top:9px solid #fff; width:0; height:0; position:absolute; right:2px; bottom:5px; transition:all .2s ease;}
+.registerRote{transform:rotatex(180deg);}
+
+#registerContent p span:after{content:""; display:block; border-right:8px solid transparent; border-left:8px solid transparent; border-top:9px solid #00519e; width:0; height:0; position:absolute; left:-8px; bottom:2px;}
+
+
+
+/*#################     slidingWindow       #################*/
+#screen{width:100%; overflow:hidden; margin:10px auto 0px; color:#fff; position:relative; transition:all .3s ease}
+#film{width:400%; height:350px;}
+.scene{width:25%; height:100%; letter-spacing:0.03em; text-align:center; float:left; overflow:hidden;}
+.scene h4{font-size:30px;}
+.scene p{font-size:19px; height:30px; margin-top:5px;}
+.scene span{display:block; width:400px; height:210px; margin:0 auto; position:relative;}
+.scene span img{width:45%; position:absolute; bottom:0; left:50%; margin-left:-22.5%;}
+
+#resgisterBtn{width:900px; position:absolute; left:50%; top:40%; margin-left:-480px;}
+.resgisterNextBtn, .resgisterPrevBtn{width:45px; height:45px; transform:rotate(45deg); transition:all .2s ease; cursor:pointer;}
+.resgisterNextBtn{border-right:3px solid #a1a1a1; border-top:3px solid #a1a1a1; float:right;}
+.resgisterPrevBtn{border-left:3px solid #a1a1a1; border-bottom:3px solid #a1a1a1;  float:left;}
+
+.resgisterNextBtn:hover ,.resgisterPrevBtn:hover{border-color:#fff;}
+
+
+
+/*#################    registerSnsArea    ####################*/
+#registerSnsArea{width:100%;}
+#registerSns{width:95%; max-width:960px; margin:0 auto; padding:50px 0 20px; letter-spacing:0.01em;}
+#registerSns p{display:inline-block; font-size:20px;}
+#registerSns a{display:inline-block; font-size:16px; margin:0 10px; border-bottom:1px solid #00519e;}
+#registerSns h4{font-size:19px; font-weight:100; padding-top:10px}
+
+#registerSns ul{width:100%; overflow:hidden; padding:40px 0 0;}
+#registerSns ul li{width:185px; height:50px; line-height:50px; text-align:center; letter-spacing:3px; border:1px solid #ccc; margin-right:15px; float:left; cursor:pointer; transition:all .3s ease; position:relative; text-indent:12px; transition:all .4s ease;}
+#registerSns ul li a{width:100%; display:block; margin:0; border-bottom:none; font-size:12px;}
+#registerSns ul li img{position:absolute; width:21px; left:30px; top:13px;}
+#registerSns ul li img.snsIconW{opacity:0;}
+
+/*#################    registerFormArea    ####################*/
+#registerFormArea{width:100%; overflow:hidden; padding-top:15px; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+#registerForm{width:100%;}
+#registerForm h3{width:95%; max-width:960px; margin:0 auto;font-size:30px; padding-top:25px; height:60px;}
+#registerForm h3 img{width:60px; display:block; float:left;}
+#registerForm h3 span{display:block; width:200px; height:60px; line-height:75px; float:left; padding-left:15px;}
+
+.registerForm-form{width:100%;}
+form{overflow:hidden; width:95%!important; max-width:960px!important; padding:0!important; margin-bottom:30px!important;}
+fieldset{border:none;}
+.formArea{width:100%; margin:30px auto;}
+
+.formArea h4{font-size:20px; color:#515151; margin:10px 0;}
+.formArea h4 strong{display:inline-block; width:18px; height:18px; line-height:18px; border:1px solid #00519e; border-radius:10px; font-size:13px; text-align:center; margin-left:13px; vertical-align:middle; margin-bottom:3px; cursor:help;}
+
+
+.formBox{width:40%; position:relative; float:left; margin-right:50px; border-bottom:1px solid #ccc;}
+input, select{width:100%; height:40px; border:none; outline:none; font-size:18px; background-color:#fff; overflow:hidden; color:#515151;}
+label{position:absolute; left:0px; top:0; font-size:16px; line-height:41px; color:#919191; transition:all .3s ease;}
+
+.formDateArea .formBox{width:25%;}
+.formDateArea, .formLocationArea{height:100px;}
+.toolTip{width:130px; background-color:#414141; color:#fff; font-size:14px; padding:10px; text-align:center; position:absolute;}
+.toolTip2{width:0; height:0; border-top:12px solid #414141; border-right:10px solid transparent; border-left:10px solid transparent; position:absolute;}
+
+.registerForm-form input{width:300px; border-bottom:1px solid #ccc;}
+
+
+/*#################    registerCopyArea    ####################*/
+#registerCopyArea{width:100%; height:350px; background-color:#eaeaea;}
+
+#registerCopy{width:900px; margin:0 auto;}
+.registerCopyText{width:100%; padding:40px 0; line-height:1.8em; font-size:15px; color:#616161;}
+
+.registerCheckArea{width:100%; margin-bottom:40px; overflow:hidden;}
+.registerCheckArea input{display:none;}
+.registerCheckArea label{position:static; height:30px; line-height:28px; font-size:19px; color:#414144; cursor:pointer; display:block;}
+.registerCheckArea span{display:block; width:28px; height:28px; float:left; border:1px solid #aaa; margin-right:30px; transition:all .3s ease;}
+.checkImg{opacity:0}
+
+.registerBtnArea{width:100%;}
+#registerBtn{width:150px; height:50px; border:1px solid #919191; background-color:transparent; cursor:pointer; transition:all .3s ease}
+
+#registerBtn:hover{background-color:#00519e; color:#fff; border-color:#eaeaea;}
+
+
+.registerCheck{display:block; width:5px; height:15px; margin:0; border:none; border-right:2px solid #fff;border-bottom:2px solid #fff; transform:rotate(45deg) translate(9px,-5px); opacity:1;}
+.registerCheck2{background-color:#00519e;}
+
+/********** tablet **********/
+@media all and (min-width:768px) and (max-width:1079px){
+#resgisterBtn{max-width:1079px; min-width:768px; margin-left:-384px; width:auto;}	
+
+
+}
+
+/********** mobile horizontal **********/
+
+@media all and (min-width:479px) and (max-width:767px){
+#registerTitle{text-align:center;}
+#registerTitle a{float:none; width:120px; margin:0 auto; padding-right:0;}
+#registerTitle h3{float:none; padding-top:15px; font-size:30px; text-align:center;}
+
+#registerContentArea{display:none;}
+
+#registerSns{padding:20px 0; text-align:center;}
+#registerSns p{font-size:17px;}
+#registerSns h4{font-size:17px;}
+
+#registerSns ul li{float:none; margin:5px auto;}
+
+}
+
+/********** mobile vertical **********/
+@media all and (min-width:0px) and (max-width:479px){
+#registerTitle{text-align:center;}
+#registerTitle a{float:none; width:120px; margin:0 auto; padding-right:0;}
+#registerTitle h3{float:none;padding-top:15px; font-size:25px; text-align:center;}
+
+#registerContentArea{display:none;}
+
+#registerSns{padding:20px 0; text-align:center;}
+#registerSns p{font-size:15px;}
+#registerSns h4{font-size:15px;}
+
+#registerSns ul li{float:none; margin:5px auto;}
+
+}
